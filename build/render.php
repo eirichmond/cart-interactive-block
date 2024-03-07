@@ -17,24 +17,7 @@ global $post;
 
 <div
 data-wp-interactive="create-block">
-
-<ul data-wp-context='{
-  "list": [
-    { "id": "123", "product": "Foo", "cost": "10" },
-    { "id": "324", "product": "Bar", "cost": "34" },
-    { "id": "545", "product": "Baz", "cost": "666" }
-  ]
-}'>
-  <template
-    data-wp-each--items="context.list"
-    data-wp-each-key="context.items.id"
-  >
-    <li><span data-wp-text="context.items.product"></span> | <span data-wp-text="context.items.cost"></span> | <span><button>Add</button></span></li>
-  </template>
-</ul>
-
     <table width="100%" data-wp-context='{
-        
     "list": [
         { "id": "123", "product": "Foo", "cost": "10" },
         { "id": "324", "product": "Bar", "cost": "34" },

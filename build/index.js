@@ -53,7 +53,7 @@ function Edit({
   const blockProps = (0,_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.useBlockProps)();
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", {
     ...blockProps
-  }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('My First Interactive Block – hello from the editor!', 'my-first-interactive-block'));
+  }, (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Cart Interactive Block – hello from the editor!', 'cart-interactive-block'));
 }
 
 /***/ }),
@@ -179,7 +179,7 @@ module.exports = window["wp"]["i18n"];
   \************************/
 /***/ ((module) => {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/my-first-interactive-block","version":"0.1.0","title":"My First Interactive Block","category":"widgets","icon":"media-interactive","description":"An interactive block with the Interactivity API","example":{},"supports":{"interactivity":true},"textdomain":"my-first-interactive-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScriptModule":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"create-block/cart-interactive-block","version":"0.1.0","title":"Cart Interactive Block","category":"widgets","icon":"media-interactive","description":"An interactive block with the Interactivity API","example":{},"supports":{"interactivity":true},"textdomain":"cart-interactive-block","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScriptModule":"file:./view.js"}');
 
 /***/ })
 
@@ -334,7 +334,7 @@ module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/tru
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = globalThis["webpackChunkmy_first_interactive_block"] = globalThis["webpackChunkmy_first_interactive_block"] || [];
+/******/ 		var chunkLoadingGlobal = globalThis["webpackChunkcart_interactive_block"] = globalThis["webpackChunkcart_interactive_block"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();

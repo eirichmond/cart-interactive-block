@@ -31,8 +31,8 @@ export default function Edit( { attributes, setAttributes } ) {
 	return (
 		<p { ...blockProps }>
 			{ __(
-				'My First Interactive Block – hello from the editor!',
-				'my-first-interactive-block'
+				'Cart Interactive Block – hello from the editor!',
+				'cart-interactive-block'
 			) }
 		</p>
 	);

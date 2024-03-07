@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       My First Interactive Block
+ * Plugin Name:       Cart Interactive Block
  * Description:       An interactive block with the Interactivity API
  * Version:           0.1.0
  * Requires at least: 6.1
@@ -8,7 +8,7 @@
  * Author:            The WordPress Contributors
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       my-first-interactive-block
+ * Text Domain:       cart-interactive-block
  *
  * @package           create-block
  */
@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
-function my_first_interactive_block_my_first_interactive_block_block_init() {
+function cart_interactive_block_cart_interactive_block_block_init() {
 	register_block_type_from_metadata( __DIR__ . '/build' );
 }
-add_action( 'init', 'my_first_interactive_block_my_first_interactive_block_block_init' );
+add_action( 'init', 'cart_interactive_block_cart_interactive_block_block_init' );
